@@ -1,1 +1,1 @@
-script: ssh localhost
+script: ssh --password='' localhost
