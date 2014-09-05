@@ -1,1 +1,2 @@
-script: ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no --password='' localhost
+install: sudo apt-get install sshpass
+script: sshpass -p "" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no --password='' localhost
