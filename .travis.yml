@@ -1,1 +1,1 @@
-script: ssh -q --password='' localhost
+script: ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no --password='' localhost
